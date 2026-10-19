@@ -1,0 +1,13 @@
+{
+  "name": "fx-npm-direct",
+  "version": "1.0.0",
+  "description": "Autoheal fixture: direct vulnerable dependency that IS reachable. Expected outcome: PR with a patch bump (lodash 4.17.20 -> 4.17.21).",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}
